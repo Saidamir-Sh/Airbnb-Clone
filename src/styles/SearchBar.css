@@ -1,0 +1,10 @@
+.form-control, .form-control:focus {
+    outline: none !important;
+    border: none !important;
+}
+label {
+    font-weight: bold;
+    font-size: .9rem;
+    margin-bottom: 0px;
+    padding: 1px 5px;
+}
