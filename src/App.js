@@ -5,6 +5,7 @@ import SearchBar from './component/SearchBar';
 import HomePage from './component/HomePage';
 import Inspiration from './component/Inspiration';
 import Discover from './component/Discover';
+import Footer from './component/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
      <HomePage />
      <Inspiration />
      <Discover />
+     <Footer />
     </div>
   );
 }
