@@ -4,6 +4,7 @@ import Navbar from './component/Navbar';
 import SearchBar from './component/SearchBar';
 import HomePage from './component/HomePage';
 import Inspiration from './component/Inspiration';
+import Discover from './component/Discover';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <SearchBar />
      <HomePage />
      <Inspiration />
+     <Discover />
     </div>
   );
 }
