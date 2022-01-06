@@ -1,0 +1,22 @@
+#nav-links a {
+    font-size: 1.06rem !important;
+    text-decoration: none;
+    color: #fff;
+}
+#nav-links a:nth-child(1):after {
+    content: '';
+    display: block;
+    width: 15px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+#nav-links a:hover::after {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 2px;
+    background-color: grey;
+    margin: 0 auto;
+    cursor: pointer;
+}
