@@ -1,0 +1,7 @@
+.card {
+    border-radius: 15px !important;
+    background-color: rgb(240, 154, 154);
+}
+.card-img-top {
+    border-radius: 15px 15px 0px 0px !important;
+}

@@ -1,4 +1,9 @@
 import React from 'react'
+import '../styles/Inspiration.css'
+import sapanca from '../assets/sapanca.jpg'
+import adalar from '../assets/Adalar.jpg'
+import bodrum from '../assets/bodrum.jpg'
+import bolu from '../assets/bolu.jpg'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 
 function Inspiration() {
@@ -9,7 +14,7 @@ function Inspiration() {
                 <Row className='d-flex justify-content-around py-3'>
                     <Col md={3}  xs={1} s={2}>
                         <Card>
-                            <Card.Img variant="top" src="https://q-xx.bstatic.com/images/hotel/max1024x768/204/204676165.jpg" />
+                            <Card.Img  variant="top" src={sapanca} />
                             <Card.Body className='pb-5'>
                               <Card.Title>Sapanca</Card.Title>
                               <Card.Text className='pb-5'>
@@ -20,7 +25,7 @@ function Inspiration() {
                     </Col>
                     <Col md={3}  xs={1} s={2}>
                         <Card>
-                            <Card.Img variant="top" src="https://q-xx.bstatic.com/images/hotel/max1024x768/204/204676165.jpg" />
+                            <Card.Img variant="top" src={adalar} />
                             <Card.Body className='pb-5'>
                               <Card.Title>Sapanca</Card.Title>
                               <Card.Text className='pb-5'>
@@ -31,7 +36,7 @@ function Inspiration() {
                     </Col>
                     <Col md={3}  xs={1} s={2}>
                         <Card>
-                            <Card.Img variant="top" src="https://q-xx.bstatic.com/images/hotel/max1024x768/204/204676165.jpg" />
+                            <Card.Img variant="top" src={bodrum} />
                             <Card.Body className='pb-5'>
                               <Card.Title>Sapanca</Card.Title>
                               <Card.Text className='pb-5'>
@@ -42,7 +47,7 @@ function Inspiration() {
                     </Col>
                     <Col md={3}  xs={1} s={2}>
                         <Card>
-                            <Card.Img variant="top" src="https://q-xx.bstatic.com/images/hotel/max1024x768/204/204676165.jpg" />
+                            <Card.Img variant="top" src={bolu} />
                             <Card.Body className='pb-5'>
                               <Card.Title>Sapanca</Card.Title>
                               <Card.Text className='pb-5'>

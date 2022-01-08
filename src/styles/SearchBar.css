@@ -3,8 +3,14 @@
     border: none !important;
 }
 label {
-    font-weight: bold;
-    font-size: .9rem;
+    font-weight: 600;
+    font-size: .8rem;
+    text-shadow: .2px 0px 0px black;
     margin-bottom: 0px;
+    margin-left: .5rem;
     padding: 1px 5px;
+}
+input:focus {
+    border: none;
+    outline: none;
 }
